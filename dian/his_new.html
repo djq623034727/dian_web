@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link href="scripts/css/OO.css" type="text/css" rel="stylesheet">
+    <script src="scripts/js/OO.js" type="text/javascript"></script>
+    <title></title>
+</head>
+<body>
+<div class="main_outer">
+    <div class="main">
+        <div class="his_list_top">
+            <div class="logo" id="his_list_logo">ICON</div>
+            <div class="login_title">点&nbsp;。<br>Hi-story</div>
+        </div>
+        <div id="his_mod_main">
+            <div class="his_new_main_title"><a href="javascript:void(0)">新建历史</a></div>
+        </div>
+        <form>
+            <div class="his_new_all">
+                <div class="his_new_left">
+                    <input class="his_new_input" type="text" placeholder="历史标题（限XX字）">
+                    <textarea class="his_new_input" id="his_new_intro" placeholder="历史简介（限XX字）"></textarea>
+                    <input class="his_new_input" type="text" placeholder="历史标签（不同标签之间用空格隔开）">
+                </div>
+                <div class="his_new_right">
+                    <form id="upload_form" target="foo" enctype="multipart/form-data" action="UploadImg.php" method="post">
+                        <div class="headImg" id="headImg">
+                            <div id="Img_cover"><span>点击上传图片</span><br>建议图片尺寸(600px*400px)</div>
+                            <img id="viewImg" name="viewImg" src="images/blank.png">
+                            <input type="file" name="file" onchange="javascript:document.getElementById('upload_form').submit()">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <input type="submit" class="his_new_sub" value="提交" onclick="return exam()">
+        </form>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/*********************登录*********************/
+.main_outer {
+    width: 100%;
+}
+.main {
+    margin: 0 auto;
+    width: 1000px;
+    text-align: center;
+}
+#main_login {
+    margin: 0 auto;
+    padding: 150px 0 100px 0;
+    width: 300px;
+    height: 400px;
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    float: left;
+    border-radius: 15px;
+    background: -webkit-linear-gradient(#00cef9,#0171eb);
+    background: -moz-linear-gradient(#00cef9,#0171eb);
+    text-align: center;
+    font: 20px/80px Helvetica;
+    color: #f7f7f7;
+}
+#login_logo {
+    margin: 0 30px 80px 30px;
+}
+.login_title {
+    line-height: 28px;
+    font: 28px 微软雅黑;
+    text-align: left;
+    float: left;
+}
+.login_user {
+    width: 280px;
+    height: 40px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    font: 20px/40px 微软雅黑;
+    border: 2px solid #666666;
+    float: left;
+}
+::-webkit-input-placeholder{
+    height: 40px;
+    font: 20px/40px 微软雅黑;
+    color: #7d7d7d;
+}
+:-moz-placeholder{
+    height: 40px;
+    font: 20px/40px 微软雅黑;
+    color: #7d7d7d;
+}
+::-moz-placeholder{
+    height: 40px;
+    font: 20px/40px 微软雅黑;
+    color: #7d7d7d;
+}
+:-ms-input-placeholder{
+    height: 40px;
+    font: 20px/40px 微软雅黑;
+    color: #7d7d7d;
+}
+.login_sub {
+    width: 120px;
+    height: 50px;
+    background: #04bef8;
+    font: 24px/50px 黑体;
+    color: #fff;
+    text-align: center;
+    margin: 10px 0 0 90px;
+    border-style: none;
+    float: left;
+    cursor: pointer;
+}
+/*********************历史列表*********************/
+.his_list_top {
+    margin-top: 60px;
+    height: 80px;
+}
+#his_list_logo {
+    margin: 0 20px 0 5px;
+}
+#his_list_main {
+    text-align: center;
+}
+#his_list_main_title {
+    width: 100%;
+    height: 80px;
+    display: block;
+    font: 18px/80px 黑体;
+    color: #68b5f7;
+    text-align: right;
+}
+table {
+    width: 1000px;
+}
+th,td {
+    text-align: left;
+    font: 18px/32px 黑体;
+    padding-left: 5px;
+}
+.td_link,.page_link {
+    color: #68b5f7;
+}
+.del {
+    margin-left: 18px;
+}
+.page_turner {
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 350px;
+    font: 16px/24px 黑体;
+    color: #a3a3a3;
+}
+.flt {
+    float: left;
+}
+.page_num {
+    margin: 0 50px;
+    float: left;
+}
+/*********************新建历史*********************/
+.his_list_intro {
+    width: 100%;
+    margin-bottom: -10px;
+}
+.his_list_intro_title {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    font: 28px/50px 黑体;
+    text-align: left;
+}
+.his_list_intro_body {
+    width: 100%;
+    min-height: 40px;
+    font: 18px/20px 黑体;
+    text-align: left;
+}
+.his_new_main_title {
+    width: 100%;
+    height: 50px;
+    margin-left: 10px;
+    display: block;
+    font: 18px/65px 黑体;
+    color: #000;
+    text-align: left;
+}
+.his_new_all {
+    height: inherit;
+    min-height: 350px;
+}
+.his_new_left {
+    width: 450px;
+    float: left;
+}
+.his_new_input,.evt_new_input {
+    width: 430px;
+    height: 40px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    font: 20px/40px 微软雅黑;
+    border: 1px solid #666666;
+    float: left;
+    color: #000;
+}
+#his_new_intro {
+    min-height: 160px;
+    line-height: 24px;
+    padding-top: 5px;
+}
+#his_mod_intro {
+    min-height: 160px;
+    line-height: 28px;
+    padding-top: 5px;
+    color: #7d7d7d;
+}
+.his_new_right {
+    width: 420px;
+    height: 250px;
+    margin-left: 60px;
+    float: left;
+    border: 1px solid #d2d2d2;
+}
+.his_new_right input {
+    width: 420px;
+    height: 250px;
+    opacity: 0;
+}
+.his_new_sub {
+    width: 120px;
+    height: 50px;
+    font: 22px/50px 黑体;
+    color: #f7f7f7;
+    background: #04bef8;
+    border-style: none;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+}
+/*********************添加新事件*********************/
+#evt_new_all {
+    min-height: 420px;
+}
+.map_title {
+    height: 40px;
+    margin-bottom: 20px;
+    font: 20px/20px 黑体;
+    color: #000000;
+}
+.map_title_left {
+    width: 480px;
+    padding: 0 10px;
+    float: left;
+    text-align: left;
+}
+.map_title_right {
+    margin-right: 100px;
+    float: right;
+    text-align: left;
+}
+#map {
+    width: 1000px;
+    height: 560px;
+    border: 2px solid #7d7d7d;
+}
+/*********************添加照片********************/
+.headImg {
+    display: block;
+    width: 420px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+}
+#Img_cover {
+    width: 420px;
+    height: 150px;
+    font: 26px 黑体;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 110px;
+    background-color: #726d6f;
+    opacity: 0.6;
+    position: absolute;
+    top: 0px;
+    display: none;
+}
+.headImg input {
+    display: block;
+    width: 420px;
+    height: 250px;
+    cursor: pointer;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+}
+#viewImg {
+    width: 420px;
+    height: 250px;
+    border: none;
+}
